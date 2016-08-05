@@ -20,7 +20,6 @@ function miElipse(cuantas) {
   fill(255, 0, 0, 100);
   for (var i = 0; i < cuantas; i++) {
     fill(random(255), random(255), random(255), random(255));
-    if (mouseX < width/3) {
   ellipse(random, random, x, x);
   x = random(100);
   }
